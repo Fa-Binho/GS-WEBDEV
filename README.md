@@ -42,18 +42,11 @@ document.getElementById()
 .value
 
 🔹 3. Validações com funções específicas
-✔ checarEmail()
-Normaliza o email e confere estrutura básica.
-✔ checarCPF()
-Remove caracteres especiais e valida tamanho.
-✔ validarFormulario()
-Reúne todos os erros em um vetor
-Só exibe sucesso se tudo estiver correto
-✔ adicionarHabilidade()
-Adiciona habilidades a um vetor global e atualiza a UI.
-
-✔ exibirFeedback()
-Mostra mensagens formatadas no DOM para erros e sucesso.
+✔ checarEmail(): Normaliza o email e confere estrutura básica.
+✔ checarCPF(): Remove caracteres especiais e valida tamanho.
+✔ validarFormulario(): Reúne todos os erros em um vetor, só exibe sucesso se tudo estiver correto.
+✔ adicionarHabilidade(): Adiciona habilidades a um vetor global e atualiza a UI.
+✔ exibirFeedback(): Mostra mensagens formatadas no DOM para erros e sucesso.
 
 🔹 4. Uso de vetores (arrays)
 
