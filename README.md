@@ -35,20 +35,30 @@ Ao mesmo tempo, tudo integrado ao universo narrativo da solução IMMERSE.
 Com campos para:
 
 Nome completo
+
 CPF
+
 Email
+
 Tipo de interesse
+
 Seleção de habilidades
+
 Lista dinâmica de habilidades
+
 Botão de submissão
 
 🔹 2. Manipulação completa do DOM
 Uso de:
+
 document.getElementById()
+
 .innerHTML
+
 .value
 
 🔹 3. Validações com funções específicas
+
 checarEmail(): Normaliza o email e confere estrutura básica.
 
 checarCPF(): Remove caracteres especiais e valida tamanho.
@@ -62,16 +72,23 @@ exibirFeedback(): Mostra mensagens formatadas no DOM para erros e sucesso.
 🔹 4. Uso de vetores (arrays)
 
 Exigência do enunciado:
+
 habilidades[]
+
 erros[]
 
 🔹 5. Feedback de sucesso
 
 Exibe:
+
 Nome normalizado
+
 Email validado
+
 CPF tratado
+
 Tipo de interesse
+
 Todas as habilidades cadastradas
 
 E mensagem final:
@@ -88,6 +105,7 @@ Acompanhamento emocional
 O formulário desenvolvido aqui representa o primeiro passo real que um usuário daria ao entrar na plataforma — garantindo ligação direta com o storytelling final da Global Solution Interdisciplinar.
 
 🗂 Estrutura de Pastas
+
 /gs-webdev-immerse
 │── index.html
 │── style.css
@@ -97,16 +115,23 @@ O formulário desenvolvido aqui representa o primeiro passo real que um usuário
 👨‍💻 Tecnologias Utilizadas
 
 HTML5
+
 CSS3
+
 JavaScript Puro
+
 Flexbox
+
 Funções JavaScript
+
 Vetores
+
 Manipulação do DOM
+
 Manipulação de strings
 
 👥 Integrantes
-Nome	RM
+
 Fábio Alexandre Barbosa Filho	567419
 Igor Davi Avelar Rosa Cesário	568163
 
