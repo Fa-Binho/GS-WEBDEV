@@ -96,20 +96,24 @@ E mensagem final:
 🧬 Conexão com o Tema “Futuro do Trabalho”
 
 A plataforma IMMERSE foi criada para treinar profissionais para carreiras emergentes usando:
-Inteligência Artificial
-Realidade Virtual
-Ambientes imersivos
-Gamificação
-Acompanhamento emocional
+Inteligência Artificial,
+Realidade Virtual,
+Ambientes imersivos,
+Gamificação,
+Acompanhamento emocional.
 
 O formulário desenvolvido aqui representa o primeiro passo real que um usuário daria ao entrar na plataforma — garantindo ligação direta com o storytelling final da Global Solution Interdisciplinar.
 
 🗂 Estrutura de Pastas
 
 /gs-webdev-immerse
+
 │── index.html
+
 │── style.css
+
 │── script.js
+
 │── README.md
 
 👨‍💻 Tecnologias Utilizadas
@@ -133,12 +137,17 @@ Manipulação de strings
 👥 Integrantes
 
 Fábio Alexandre Barbosa Filho	567419
+
 Igor Davi Avelar Rosa Cesário	568163
 
 📄 Como Rodar o Projeto
 
 Baixe o repositório
+
 Abra o arquivo index.html em qualquer navegador
+
 Interaja com o formulário
+
 Confira o feedback em tempo real
+
 Nenhuma instalação adicional é necessária.
