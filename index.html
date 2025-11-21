@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>IMMERSE FutureSkills - Registro de Interesse</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>IMMERSE FutureSkills</h1>
+        <p class="subtitulo">Formulário de Registro de Interesse para Requalificação Imersiva</p>
+    </header>
+
+    <main>
+        <section class="card">
+            <h2>Portal de Entrada – Programa IMMERSE</h2>
+            <p class="descricao">
+                Preencha o formulário abaixo para registrar seu interesse em participar das trilhas
+                de requalificação profissional da plataforma IMMERSE, focadas no futuro do trabalho.
+            </p>
+
+            <form id="formImmerse" onsubmit="event.preventDefault(); validarFormulario();">
+                <!-- NOME -->
+                <div class="campo">
+                    <label for="nomeCompleto">Nome Completo *</label>
+                    <input type="text" id="nomeCompleto" placeholder="Digite seu nome completo">
+                </div>
+
+                <!-- CPF -->
+                <div class="campo">
+                    <label for="cpf">CPF *</label>
+                    <input type="text" id="cpf" placeholder="Apenas números ou com pontos e traço">
+                </div>
+
+                <!-- EMAIL -->
+                <div class="campo">
+                    <label for="email">E-mail *</label>
+                    <input type="text" id="email" placeholder="seuemail@exemplo.com">
+                </div>
+
+                <!-- TIPO DE INTERESSE -->
+                <div class="campo">
+                    <label for="interesseSelect">Tipo de Interesse *</label>
+                    <select id="interesseSelect">
+                        <option value="">Selecione...</option>
+                        <option value="Trilha em IA para o Trabalho">Trilha em IA para o Trabalho</option>
+                        <option value="Requalificação para Front-end">Requalificação para Front-end</option>
+                        <option value="Carreira em Dados">Carreira em Dados</option>
+                        <option value="Soft Skills e Liderança">Soft Skills e Liderança</option>
+                        <option value="Ambientes Imersivos (VR/AR)">Ambientes Imersivos (VR/AR)</option>
+                    </select>
+                </div>
+
+                <!-- HABILIDADES -->
+                <fieldset class="campo">
+                    <legend>Habilidades</legend>
+                    <p class="descricao-campo">
+                        Selecione uma habilidade por vez e clique em <strong>Adicionar Habilidade</strong>.
+                        É necessário informar pelo menos 3 habilidades.
+                    </p>
+
+                    <div class="linha-flex">
+                        <select id="habilidadeSelect">
+                            <option value="">Selecione uma habilidade...</option>
+                            <option value="Lógica de Programação">Lógica de Programação</option>
+                            <option value="HTML e CSS">HTML e CSS</option>
+                            <option value="JavaScript">JavaScript</option>
+                            <option value="Trabalho em Equipe">Trabalho em Equipe</option>
+                            <option value="Comunicação">Comunicação</option>
+                            <option value="Resolução de Problemas">Resolução de Problemas</option>
+                            <option value="Pensamento Crítico">Pensamento Crítico</option>
+                            <option value="Criatividade">Criatividade</option>
+                        </select>
+
+                        <button type="button" onclick="adicionarHabilidade()">Adicionar Habilidade</button>
+                    </div>
+
+                    <div id="habilidadesLista" class="lista-habilidades">
+                        Nenhuma habilidade adicionada ainda.
+                    </div>
+                </fieldset>
+
+                <!-- BOTÃO DE SUBMISSÃO -->
+                <div class="acoes">
+                    <button type="submit">Enviar Registro</button>
+                </div>
+            </form>
+
+            <!-- ÁREA DE FEEDBACK -->
+            <div id="feedback" class="feedback"></div>
+        </section>
+    </main>
+
+</body>
+</html>
