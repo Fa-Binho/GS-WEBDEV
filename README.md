@@ -11,14 +11,14 @@ Este formulário simula a primeira etapa do onboarding real da plataforma: a col
 
 Atender aos requisitos da Global Solution WebDev, criando:
 
-✔ Um formulário funcional
-✔ Com validação completa em JavaScript
-✔ Utilizando vetores (arrays) para armazenar habilidades
-✔ Manipulação de string
-✔ Manipulação do DOM
-✔ Feedback visual de erros e sucesso
-✔ Estrutura HTML semântica
-✔ JavaScript modular (funções separadas)
+Um formulário funcional
+Com validação completa em JavaScript
+Utilizando vetores (arrays) para armazenar habilidades
+Manipulação de string
+Manipulação do DOM
+Feedback visual de erros e sucesso
+Estrutura HTML semântica
+JavaScript modular (funções separadas)
 
 Ao mesmo tempo, tudo integrado ao universo narrativo da solução IMMERSE.
 
@@ -42,11 +42,11 @@ document.getElementById()
 .value
 
 🔹 3. Validações com funções específicas
-✔ checarEmail(): Normaliza o email e confere estrutura básica.
-✔ checarCPF(): Remove caracteres especiais e valida tamanho.
-✔ validarFormulario(): Reúne todos os erros em um vetor, só exibe sucesso se tudo estiver correto.
-✔ adicionarHabilidade(): Adiciona habilidades a um vetor global e atualiza a UI.
-✔ exibirFeedback(): Mostra mensagens formatadas no DOM para erros e sucesso.
+checarEmail(): Normaliza o email e confere estrutura básica.
+checarCPF(): Remove caracteres especiais e valida tamanho.
+validarFormulario(): Reúne todos os erros em um vetor, só exibe sucesso se tudo estiver correto.
+adicionarHabilidade(): Adiciona habilidades a um vetor global e atualiza a UI.
+exibirFeedback(): Mostra mensagens formatadas no DOM para erros e sucesso.
 
 🔹 4. Uso de vetores (arrays)
 
